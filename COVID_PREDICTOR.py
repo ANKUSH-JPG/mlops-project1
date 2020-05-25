@@ -36,7 +36,7 @@ ep = config_vals['ep']
 print("steps per epoch = "+ str(spc))
 print("epochs = "+ str(ep))
 
-config_vals['spc'] = spc + 100
+config_vals['spc'] = spc + 50
 config_vals['ep'] = ep + 1
 
 with open("config.yaml", "w") as cw:
