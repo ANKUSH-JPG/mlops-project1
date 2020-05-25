@@ -37,6 +37,7 @@ print("steps per epoch = "+ str(spc))
 print("epochs = "+ str(ep))
 
 config_vals['spc'] = spc + 100
+config_vals['ep'] = ep + 1
 
 with open("config.yaml", "w") as cw:
    yaml.dump(config_vals, cw, default_flow_style=True)
